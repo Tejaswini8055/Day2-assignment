@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>First assignment </title>
+</head>
+<body onload="Welcome()">
+
+    <div id="input-event">
+    <p>Write something, or delete something, in the text field to trigger a function.</p>
+    <input type="text" id="myInput" oninput="myFunction1(event)">
+    <p>The type of action:<span id="demo"></span></p>
+    </div>
+
+    <div id="onclick-section">
+    <button id="console-button" onclick="console.log('tejaswini')"> My name is </button>
+    </div>
+
+    <br>
+
+    <form  onsubmit="form()">
+        Enter name: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+    </form>
+
+    <br>
+
+    <div class="language-section">
+        <select id="mySelect" onchange="change()">
+            <option value="Languages">Languages</option>
+            <option value="Telugu">Telugu</option>
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+        </select>
+        <p id="demo1"></p>
+    </div> 
+
+    <script src="firstprog.js"></script>
+
+</body>
+</html>
